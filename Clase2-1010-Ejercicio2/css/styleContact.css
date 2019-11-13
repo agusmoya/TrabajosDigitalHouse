@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  margin-top: 0;
+  padding: 0;
+}
+
+header ul{
+    text-align: right;
+    margin-right: 15px;
+    padding-top: 0;
+}
+
+header ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#palabras{
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 60px;
+  margin-right: 0px;
+  margin-top: 15px;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15px;
+}
+
+h1{
+  font-size: 65px;
+  margin-top: 140px;
+}
+
+#contactInfo{
+  margin-top: 55px;
+}
+
+.listaContacto {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15px;
+}
+
+.listaContacto h3 {
+  color: rgb(79, 153, 137);
+}
+
+.listaContacto p {
+  margin-bottom: 40px;
+}
+
+.listaContacto p a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}

@@ -1,0 +1,74 @@
+header {
+  background-color: gainsboro;
+  padding: 1px;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  overflow: hidden;
+
+}
+
+header nav ul li {
+  float: left;
+  width:25%;
+}
+
+header nav ul li a {
+  display: block;
+}
+
+html, body {
+  margin: 0;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+article {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article img {
+  width: 100%;
+}
+/* NOTE: IPADS (PORTRAIT) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  body {
+    background-color: blue;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  article {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+  }
+}
+
+/* NOTE: DESKTOPS AND LAPTOPS */
+@media only screen and (min-device-width : 1224px) {
+  body {
+    background-color: green;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  article {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+  }
+
+}

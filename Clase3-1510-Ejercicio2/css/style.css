@@ -1,0 +1,140 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  width: 1140px;
+  margin: 0 auto;
+  background-image: url("../img/bg-2.png");
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(223, 88, 55);
+}
+
+header .logo{
+  float: left;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+nav {
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.menu123 {
+  height: inherit;
+  float: left;
+  padding: 10px;
+}
+
+.logReg {
+  float: right;
+  padding: 10px;
+}
+
+/* NOTE: TERMINA HEADER */
+
+/* NOTE: INICIA MAIN: SECTIONS */
+
+main {
+  max-width: 1140px;
+  overflow: hidden;
+}
+
+.productos{
+  background-color: white;
+  width: 800px;
+  float: left;
+  margin-top: 20px;
+}
+
+.productos .fila1 {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.productos .f1Prod1, .f1Prod2 {
+  width: 380px;
+  float: left;
+  margin: 10px;
+}
+
+.productos img {
+  width: 100%;
+}
+
+.productos button {
+  font-size: 17px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(241, 92, 79);
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+
+.tutosAds{
+  background-color: white;
+  width: 320px;
+  float: left;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tutosAds h3{
+  margin-left: 10px;
+}
+
+.tutosAds .tutos h3{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tutosAds .tutos div{
+  margin: 10px 10px;
+  overflow: hidden;
+}
+
+.tutosAds .tutos img {
+  display: block;
+  float: left;
+
+}
+
+.tutosAds .tutos h4 {
+  float: left;
+  margin-left: 15px;
+}
+
+.tutosAds .ads h3{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.tutosAds .ads img{
+  width: 95%;
+  margin: 2.5%;
+}

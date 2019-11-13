@@ -1,0 +1,116 @@
+body{
+  margin: 0 auto;
+  width: 960px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  border-bottom: solid 1px black;
+  width: 960px;
+  padding-bottom: 20px;
+}
+
+main{
+  overflow: hidden;
+  width: 960px;
+}
+
+nav {
+  width: 300px;
+  float: left;
+  padding: 15px;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  margin-top: 30px;
+  padding-left: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.secciones {
+  width: 610px;
+  float:right;
+  border-left: 1px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+#tituloEntradas {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.secciones h3 {
+  margin-left: 15px;
+}
+
+.secciones article {
+  overflow: hidden;
+}
+
+.secciones article ul li{
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.secciones article img {
+  display: block;
+  float: right;
+  margin-top: 50px;
+}
+
+#goTop{
+  margin-bottom: 0;
+}
+
+#goTop a{
+  margin-bottom: 0;
+  text-decoration: none;
+  color: grey;
+  font-style: italic;
+}
+
+footer {
+  display: inline-block;
+  width: 960px;
+  background-color: grey;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+footer img {
+  display: block;
+  float: left;
+  width: 35%;
+}
+
+footer .contacto {
+  float: right;
+}
+
+footer .contacto p {
+
+}
+
+footer .contacto p a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}

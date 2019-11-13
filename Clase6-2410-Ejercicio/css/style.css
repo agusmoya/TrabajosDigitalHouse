@@ -1,0 +1,179 @@
+body{
+  background-color: #18BC9C;
+  margin: 0;
+}
+
+.container {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  background-color: #2C3E50;
+  color: white;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  vertical-align: middle;
+  vertical-align: middle;
+}
+
+.contenedorFotoPerfil {
+  text-align: center;
+  width: 100vw;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.col-12, .col-md-12, .col-lg-12 {
+  margin: 0;
+  padding: 0;
+}
+
+#fila1{
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;
+}
+
+#fila1 h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#fila1 p{
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+#fila2{
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+.contenedorImagenes {
+  overflow: hidden;
+  text-align: center;
+  margin: 10px;
+}
+
+#fila2 h2, p{
+  color: rgb(44, 62, 80);
+}
+
+#fila2 img {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+#fila3{
+  text-align: center;
+  padding: 10px;
+}
+
+#fila3 #icono{
+  color: white;
+  text-align: center;
+}
+
+#fila3 h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#fila3 h2, p{
+  color: white;
+}
+
+#fila3 p {
+text-align: left;
+}
+
+#fila3 button {
+  background-color: #18BC9C;
+  border: 1px solid white;
+}
+
+#fila4 {
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+#fila4 h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+#fila4 #icono{
+  text-align: center;
+}
+
+.contenedorSpans{
+  text-align: left;
+}
+
+#fila4 #infoPersonal {
+  color: grey;
+  text-align: left;
+}
+
+#fila4 p{
+  text-align: left;
+}
+
+#fila4 h2, p{
+  color: rgb(44, 62, 80);
+}
+
+#fila5 {
+  background-color: #2C3E50;
+  text-align: center;
+  color: white;
+}
+
+#fila5 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color:
+}
+
+#fila5 p {
+  color: white;
+}
+
+#fila6 {
+  background-color: rgb(26, 37, 47);
+  text-align: center;
+}
+
+#fila6 p {
+  color: white;
+  font-size: 13px;
+}

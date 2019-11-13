@@ -1,0 +1,63 @@
+/* NOTE: Inicio HOME */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-image: url(../img/emilia-home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: 74%;
+}
+
+main{}
+
+header ul{
+  margin: 0;
+}
+
+header ul p{
+  margin-top: 20px;
+}
+
+header ul p a{
+text-decoration: none;
+list-style: none;
+}
+
+#palabras p a{
+  color: grey;
+}
+
+#iconos a i{
+  color: black;
+  font-size: 22px;
+}
+
+section p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-top: 250px;
+  padding-left: 45px;
+  line-height: 50px;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 97px;
+  margin-top: 230px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+/* NOTE: Fin HOME */
+
+#palabras a{
+  text-decoration: none;
+
+}
+
+
+
+/* NOTE: Inicio ABOUT */
